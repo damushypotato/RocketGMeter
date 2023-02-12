@@ -72,9 +72,9 @@ void readMPU()
       {
         maxZ = accelZ;
       }
-      Serial.print("u");
     }
 
+    // Serial.print("0, -50, 50, ");
     Serial.println(maxZ);
 
     previousMpuMillis = mpuInterval;
